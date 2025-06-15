@@ -9,14 +9,13 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <Image
-          src="/images/photos/main_celebrity_promo.webp"
-          alt="Bare Knuckle Golf Gloves"
-          width={1920}
-          height={1080}
-          className="absolute inset-0 w-full h-full object-cover opacity-50"
-          priority
-        />
+        <div className="absolute inset-0">
+          <img
+            src="/images/photos/main_celebrity_promo.webp"
+            alt="Bare Knuckle Golf Gloves"
+            className="w-full h-full object-cover opacity-50"
+          />
+        </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight">
             NOT YOUR DAD'S
@@ -64,11 +63,10 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-video">
-              <Image
+              <img
                 src="/images/photos/main_celebrity_promo_2.webp"
                 alt="Professional Golfer with Bare Knuckle Gloves"
-                fill
-                className="object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <div>

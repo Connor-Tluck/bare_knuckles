@@ -1,4 +1,3 @@
-import Image from '@/components/Image';
 import Link from 'next/link';
 
 export default function TheCut() {
@@ -7,12 +6,9 @@ export default function TheCut() {
       {/* Product Hero */}
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0 z-0">
-          <Image
+          <img
             src="/images/products/the-cut-hero.jpg"
             alt="The Cut - Premium Fingerless Golf Glove"
-            width={1920}
-            height={1080}
-            priority
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/30" />
@@ -35,39 +31,31 @@ export default function TheCut() {
             {/* Product Gallery */}
             <div className="space-y-4">
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image
+                <img
                   src="/images/products/the-cut-gallery-1.jpg"
                   alt="The Cut - Front View"
-                  width={800}
-                  height={800}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="grid grid-cols-3 gap-4">
                 <div className="relative aspect-square rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/images/products/the-cut-gallery-2.jpg"
                     alt="The Cut - Side View"
-                    width={400}
-                    height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/images/products/the-cut-gallery-3.jpg"
                     alt="The Cut - Detail View"
-                    width={400}
-                    height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/images/products/the-cut-gallery-4.jpg"
                     alt="The Cut - In Action"
-                    width={400}
-                    height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -132,12 +120,10 @@ export default function TheCut() {
             {/* Related Product 1 */}
             <div className="group">
               <div className="relative aspect-square mb-4 overflow-hidden rounded-lg">
-                <Image
+                <img
                   src="/images/products/the-cut-white.jpg"
                   alt="The Cut - White"
-                  width={600}
-                  height={600}
-                  className="group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">The Cut - White</h3>
@@ -153,12 +139,10 @@ export default function TheCut() {
             {/* Related Product 2 */}
             <div className="group">
               <div className="relative aspect-square mb-4 overflow-hidden rounded-lg">
-                <Image
+                <img
                   src="/images/products/the-cut-limited.jpg"
                   alt="The Cut - Limited Edition"
-                  width={600}
-                  height={600}
-                  className="group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">The Cut - Limited Edition</h3>
@@ -174,12 +158,10 @@ export default function TheCut() {
             {/* Related Product 3 */}
             <div className="group">
               <div className="relative aspect-square mb-4 overflow-hidden rounded-lg">
-                <Image
+                <img
                   src="/images/products/the-cut-black.jpg"
                   alt="The Cut - Black"
-                  width={600}
-                  height={600}
-                  className="group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">The Cut - Black</h3>

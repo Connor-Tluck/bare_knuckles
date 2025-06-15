@@ -7,10 +7,10 @@ export default function NotFound() {
       <div className="max-w-2xl mx-auto text-center">
         <div className="relative w-32 h-32 mx-auto mb-8">
           <Image
-            src="/images/logo.png"
-            alt="BareKnuckle Golf"
-            width={128}
-            height={128}
+            src="/images/photos/man_with_gloves_general.png"
+            alt="BareKnuckle Golf Logo"
+            width={500}
+            height={300}
             className="w-full h-full"
           />
         </div>

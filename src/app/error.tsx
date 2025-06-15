@@ -21,11 +21,11 @@ export default function Error({
       <div className="max-w-2xl mx-auto text-center">
         <div className="relative w-32 h-32 mx-auto mb-8">
           <Image
-            src="/images/logo.png"
-            alt="BareKnuckle Golf"
-            width={128}
-            height={128}
-            className="w-full h-full"
+            src="/images/photos/man_with_gloves_general.png"
+            alt="BareKnuckle Golf Logo"
+            width={500}
+            height={300}
+            className="mb-8"
           />
         </div>
         <h1 className="text-4xl font-bold mb-6">Something went wrong!</h1>
