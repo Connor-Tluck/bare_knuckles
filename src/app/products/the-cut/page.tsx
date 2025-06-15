@@ -1,32 +1,6 @@
-'use client';
-
-import { useState } from 'react';
-import { useCart } from '@/context/CartContext';
 import Link from 'next/link';
 
 export default function TheCut() {
-  const { addToCart } = useCart();
-  const [selectedSize, setSelectedSize] = useState('');
-  const [selectedColor, setSelectedColor] = useState('');
-  const [quantity, setQuantity] = useState(1);
-
-  const handleAddToCart = () => {
-    if (!selectedSize || !selectedColor) {
-      alert('Please select both size and color');
-      return;
-    }
-
-    addToCart({
-      id: 'the-cut',
-      name: 'The Cut',
-      price: 29.99,
-      size: selectedSize,
-      color: selectedColor,
-      quantity,
-      image: '/images/products/the-cut-hero.jpg',
-    });
-  };
-
   return (
     <main className="min-h-screen bg-white">
       {/* Product Hero */}
